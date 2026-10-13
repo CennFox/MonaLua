@@ -1,0 +1,18 @@
+name: check
+on: [push, pull_request]
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Lua 5.4
+        run: sudo apt-get update && sudo apt-get install -y lua5.4
+      - name: Lua files parse
+        run: |
+          fail=0
+          while IFS= read -r f; do luac5.4 -p "$f" || fail=1; done < <(git ls-files '*.lua')
+          exit $fail
+      - name: Python files compile
+        run: python3 -m compileall -q patcher standalone mosalua_patcher.py tests/fish
+      - name: Patcher contains the current mods folder
+        run: python3 standalone/check_payload.py
