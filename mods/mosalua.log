@@ -1,0 +1,21 @@
+[10:35:15] mosalua 1.1.1 starting (Lua 5.4.7)
+[10:35:15] note: this HashLink mishandles Single values (calls no, callback arguments yes, callback results yes); workaround active
+[10:35:15] 9989 hookable functions, 884 native functions, home = C:\Program Files (x86)\Steam\steamapps\common\Mosa Lina
+[10:35:15] runtime ready: 9989 hookable functions, 884 native functions, 2135 classes
+[10:35:15] [b2] Box2D layer ready: 126 physics natives
+[10:35:15] frame tick attached to fish.system.Main.mainLoop
+[10:35:15] [ml] Mosa Lina API 1.4.0 loaded (679 spawnable object types)
+[10:35:15] [destruction] explosions now break tiles into pixels (V sets one off at the cursor)
+[10:35:15] loaded mod destruction
+[10:35:15] [ink] Ink is in the item pool (press U in a level to get one at once)
+[10:35:15] loaded mod ink
+[10:35:18] [ml] added to the item pool: ink (and to the tool grid)
+[10:35:49] [ink] pen down at (325, 162)
+[10:35:55] [ink] pen up: 152 of 320 pixels of ink used, 21 strokes in the level
+[10:36:01] [ink] pen down at (61, 95)
+[10:36:07] [ink] pen up: 320 of 320 pixels of ink used, 64 strokes in the level
+[10:36:15] [ml] added to the item pool: ink (and to the tool grid)
+[10:36:16] [ink] pen down at (325, 162)
+[10:36:17] [ink] pen up: 152 of 320 pixels of ink used, 21 strokes in the level
+[10:36:18] [ink] pen down at (61, 95)
+[10:36:19] [ink] pen up: 320 of 320 pixels of ink used, 64 strokes in the level
