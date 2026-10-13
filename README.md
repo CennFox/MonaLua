@@ -1,6 +1,5 @@
 # Mosa Lina Lua modding SDK
 
-[![check](../../actions/workflows/check.yml/badge.svg)](../../actions/workflows/check.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Write mods for Mosa Lina as plain
