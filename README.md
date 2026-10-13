@@ -1,5 +1,6 @@
 # Mosa Lina Lua modding SDK
 
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Write mods for Mosa Lina as plain
@@ -45,6 +46,8 @@ after a game update.
 | [`black_hole.lua`](examples/black_hole.lua) | B | new tool: pulls the whole level into a point for ten seconds, then freezes it |
 | [`rewind.lua`](examples/rewind.lua) | Y | new tool: the last five seconds run backwards |
 | [`ink.lua`](examples/ink.lua) | U | new tool: draw solid lines into the level with the mouse |
+| [`fold.lua`](examples/fold.lua) | O | new tool: cuts a strip out of the level and slides the two sides together |
+| [`portal_gun.lua`](examples/portal_gun.lua) | P | new tool: blue and orange portals that keep your speed, with its own picture and sounds made in Lua |
 | [`destruction.lua`](examples/destruction.lua) | V | explosions break tiles into pixels that keep the tile's colour |
 | [`extrude3d.lua`](examples/extrude3d.lua) | F3 | draws the level and the player with depth |
 | [`trip.lua`](examples/trip.lua) | F4 | replaces the rotating background with an animated tunnel |
